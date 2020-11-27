@@ -1,0 +1,18 @@
+# theme.toml for the gox Hugo theme
+
+name = ""
+license = "GOCOM-BY-3.0"
+licenselink = "https://github.com/ronibd0/master/LICENSE"
+description = "SCCIL ported to Hugo"
+homepage = "https://digital.goisp.net/"
+tags = ["onepage", "bootstrap", "ecommerce", "single product", "product", "SCCIL"]
+features = ["onepage", "product"]
+min_version = "0.62.2"
+
+[author]
+  name = "SCCIL"
+  homepage = "Our product"
+
+[original]
+  name = "gox"
+  homepage = "https://digital.goisp.net/"

@@ -1,0 +1,41 @@
+<footer>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <a href="{{ site.BaseURL | relLangURL }}" class="mb-4 d-inline-block">{{ if site.Params.logo }} <img src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}" {{with site.Params.logo_width}}width="{{.}}"{{end}}> {{ else }} {{ .Title }} {{ end }}</a>
+          <ul class="list-inline footer-menu">
+            {{ range site.Menus.footer }}
+            <li class="list-inline-item">
+              <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          <p class="copyright-text">{{ site.Params.copyright | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Snipcart public key -->
+{{with site.Params.snipcart_api}}<div hidden id="snipcart" data-api-key="{{.}}"></div>{{end}}
+
+<!-- JS Plugins -->
+{{ range site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+<!-- Main Script -->
+{{ $script := resources.Get "js/script.js" }}
+<script src="{{ $script.Permalink }}"></script>
+
+<!-- Load PhotoSwipe js if the load-photoswipe shortcode has been used -->
+{{ if ($.Scratch.Get "photoswipeloaded") }}
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+{{ end }}
+

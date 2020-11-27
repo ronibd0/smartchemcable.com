@@ -1,0 +1,98 @@
+baseurl = "https://smartchemcable.com"
+canonifyurls = false
+disableLanguages = []
+googleAnalytics = "UA-158648186-5"
+summarylength = "20"
+theme = "gox-hugo"
+title = "Smart Chem Cable Industries Limited | Largest Manufacturer of Co-axial, CAT5, CAT6 Cables, LED Lights, Electric Insulation Tape, BOPP Gum Tape in Bangladesh"
+[Languages.bn]
+contentDir = "content/bangla"
+copyright = "All rights @ [SCCIL®. 2020 (A sister concern of Rafsan Group)](https://smartchemcable.com/) & Designed By [Go Communications®](https://digital.goisp.net/)"
+languageCode = "bn-bn"
+languageName = "Bn"
+weight = 2
+[Languages.en]
+contentDir = "content/english"
+copyright = "All rights @ [SCCIL®. 2020 (A sister concern of Rafsan Group)](https://smartchemcable.com/) & Designed By [Go Communications®](https://digital.goisp.net/)"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
+[[menu.footer]]
+URL = "governance"
+name = "Governance"
+weight = 3
+[[menu.footer]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+weight = 6
+[[menu.footer]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
+weight = 5
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+[[menu.footer]]
+URL = "gallery"
+name = "Photo Gallery"
+weight = 7
+[[menu.footer]]
+URL = "corporate"
+name = "Corporate"
+weight = 4
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "products"
+name = "Store"
+weight = 3
+[[menu.main]]
+URL = "brands"
+name = "Brands"
+weight = 2
+[[menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[params]
+author = "SCCIL"
+contact_form_action = "https://formspree.io/f/xrgoepwb"
+description = "We are making quality coaxial cables, cat5, cat6, fiber optics, led lights in Bangladesh."
+logo = "images/9.png" 
+logo_description = "SCCIL"
+logo_width = "40px"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+[[params.plugins.css]]
+link = "./plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "./plugins/gox-font/gox-font.min.css"
+[[params.plugins.css]]
+link = "./plugins/slick/slick.min.css"
+
+# [[params.plugins.css]]
+# link = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css"
+
+[[params.plugins.js]]
+link = "./plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "./plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "./plugins/slick/slick.min.js"
+
+# [[params.plugins.js]]
+# ink = "https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js"
+
+[params.preloader]
+enable = true
+preloader = ""
+
+# [params.subscription]
+# mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074"
+# mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"

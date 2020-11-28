@@ -5,7 +5,7 @@ description: Governance of SCCIL
 ---
 ### Honorable Chairman
 
-{{< figure src="/images/ch1.jpg" width="100px">}}
+![](/images/ch1.jpg)
 
 * Md. Khaledul Islam Mithun
 * Email: chairman@smartchemcable.com
@@ -15,7 +15,7 @@ description: Governance of SCCIL
 
 ### Managing Director
 
-{{< figure src="/images/md.png" width="100px">}}
+![](/images/md.png)
 
 * Naima Sultana
 * Email: md@smartchemcable.com
@@ -25,7 +25,7 @@ description: Governance of SCCIL
 
 ### Director
 
-{{< figure src="/images/milton.png" width="100px">}}
+![](/images/milton.png)
 
 * Md. Mahmudul Islam Milton
 * Mobile: +880-198-076-1695

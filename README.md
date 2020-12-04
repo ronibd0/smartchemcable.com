@@ -27,7 +27,7 @@ Update, add pages, images, changes anything you need. save this. Git repository 
 
 Then go-to local folder in /webdev/scci/sccil/themes/git-sccil ---> open terminal, input command "git pull" and hit enter
 
-Then back into /webdev/scci/sccil ------> open terminal, write  "cp -av themes/git-sccil/empleSite/* ." and hit enter. Then type "hugo" and hit enter to make ready public directory. 
+Then back into /webdev/scci/sccil ------> open terminal, write  "cp -av themes/git-sccil/eampleSite/* ." and hit enter. Then type "hugo" and hit enter to make ready public directory. 
 
 Then go-to /webdev/scci/sccil/public, 
 
